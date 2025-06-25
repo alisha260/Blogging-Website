@@ -39,7 +39,9 @@ jobs:
     name: Deploy to GitHub Pages
     needs: build
     runs-on: ubuntu-latest
+    environment: github-pages   # ✅ This line fixes the error
 
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
+

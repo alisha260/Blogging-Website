@@ -1,12 +1,16 @@
 {
   "name": "blogging-website",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "htmlhint": "^1.6.3",
+    "parcel": "^2.15.4",
+    "stylelint": "^16.21.0"
+  }
 }
